@@ -1,3 +1,5 @@
+/*Header Styles*/
+
 .App-logo {
   animation: App-logo-spin infinite 10s linear;
   height: 80px;
@@ -7,15 +9,22 @@
   text-align: center;
   background-color: #222;
   height: 150px;
-  padding: 20px;
   color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+/*Body styles*/
+
+.App-intro {
+  font-size: 2em;
+  text-align: center;
+}
+
+@media (max-width:900px) {
+  .menu {
+    display: none;
   }
 }
+
+
+/*Footer Styles*/
