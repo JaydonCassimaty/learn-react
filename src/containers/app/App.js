@@ -9,9 +9,9 @@ class App extends Component {
       <div>
       <Header/ >
       <div className="row">
-        <Dropdown/ >
+        <Dropdown />
         <div className="codeSelector">
-        <p>CodeSelector</p>
+        <p ref="selectCode">CodeSelector</p>
         </div>
         <div className="codeResult">
         <p>CodeResult</p>
