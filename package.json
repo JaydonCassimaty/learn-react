@@ -11,10 +11,10 @@
         "react-scripts": "1.0.10"
     },
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "predeploy": "cross-env NODE_PATH=src npm run build",
+        "deploy": "cross-env NODE_PATH=src gh-pages -d build",
         "start": "cross-env NODE_PATH=src react-scripts start",
-        "build": "react-scripts build",
+        "build": "cross-env NODE_PATH=src react-scripts build",
         "test": "cross-env NODE_PATH=src react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
     },
